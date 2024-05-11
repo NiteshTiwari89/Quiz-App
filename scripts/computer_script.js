@@ -27,12 +27,72 @@ const questions = [
         ]
     },
     {
-        question:"In what year was the first iPhone released?",
+        question:"Which of the following languages are directly executable by a computer’s CPU?",
         answers:[
-            {text:"2005", correct : "false"},
-            {text:"2007", correct : "true"},
-            {text:"2008", correct : "false"},
-            {text:"2010", correct : "false"}
+            {text:"Machine Language", correct : "true"},
+            {text:"High Language", correct : "false"},
+            {text:"Assembly Language", correct : "false"},
+            {text:"Second Generation Language", correct : "false"}
+        ]
+    },
+    {
+        question:"Which of the following is the smallest unit of data in a computer?",
+        answers:
+        [
+            {text:"Bit",correct:"true"},
+            {text:"KB",correct:"false"},
+            {text:"Nibble",correct:"false"},
+            {text:"Byte",correct:"false"}
+        ]
+    },
+    {
+        question:"Which of the following is not a type of computer code?",
+        answers:
+        [
+            {text:"ASCII",correct:"false"},
+            {text:"BCD",correct:"false"},
+            {text:"EDIC",correct:"true"},
+            {text:"EBCDIC",correct:"false"}
+        ]
+    },
+    {
+        question:" Which of the following device use positional notation to represent a decimal number?",
+        answers:
+        [
+            {text:"Pascaline",correct:"false"},
+            {text:"Abacus",correct:"true"},
+            {text:"Computer",correct:"false"},
+            {text:"Calculator",correct:"false"}
+        ]
+    },
+    {
+        question:"Which of the following type of computer is mostly used for automatic operations?",
+        answers:
+        [
+            {text:"Analog",correct:"false"},
+            {text:"Digital",correct:"false"},
+            {text:"Hybrid",correct:"true"},
+            {text:"Remote",correct:"false"}
+        ]
+    },
+    {
+        question:"Which of the following invention gave birth to the much cheaper microcomputers?",
+        answers:
+        [
+            {text:"PDAs",correct:"false"},
+            {text:"Microprocessors",correct:"true"},
+            {text:"Microcomputers",correct:"false"},
+            {text:"Mainframes",correct:"false"}
+        ]
+    },
+    {
+        question:"Which of the following can access the server?",
+        answers:
+        [
+            {text:"Web Client",correct:"true"},
+            {text:"User",correct:"false"},
+            {text:"Web Browser",correct:"false"},
+            {text:"Web Server",correct:"false"}
         ]
     }
 ];
