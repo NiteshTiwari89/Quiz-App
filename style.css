@@ -79,7 +79,7 @@ body{
     display: flex;
 }
 #home-btn>a{
-    display: flex;
+    display: none;
     justify-content: center;
     color: white;
 }
