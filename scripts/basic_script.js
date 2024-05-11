@@ -101,6 +101,7 @@ const questions = [
 const questionElement = document.getElementById("question");
 const answerButton = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
+const homeButton = document.getElementById("home-btn");
 
 
 let currentQuestionIndex = 0;
@@ -178,6 +179,7 @@ function showScore(){
     }
     nextButton.innerHTML = "Play Again";
     nextButton.style.display = "block";
+    homeButton.style.display = "block";
 }
 
 
