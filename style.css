@@ -57,7 +57,7 @@ body{
     cursor: no-drop;
 }
 
-#next-btn{
+#next-btn,#home-btn{
     background: #001e4d;
     color: #fff;
     font-weight: 500;
@@ -67,13 +67,21 @@ body{
     margin: 20px auto 0;
     border-radius: 4px;
     cursor: pointer;
-    display: none;
+    display: block;
 }
 .correct{
     background: #9aeabc;
 }
 .incorrect{
     background: #ff9393;
+}
+.btn2{
+    display: flex;
+}
+#home-btn>a{
+    display: flex;
+    justify-content: center;
+    color: white;
 }
 
 
